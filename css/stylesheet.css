@@ -72,6 +72,49 @@ table {
   padding-top: 4px;
 }
 
+/* ****************************************** buttons ******************** */
+
+.green-button{
+  color: white;
+}
+
+.green-button .text{
+  color: white;
+  padding-top: 8px;
+  font-size: 13pt;
+  line-height: 30px;
+}
+
+.green-button a{
+  color: white;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+.green-button .button-left{
+  background: url('../images/buttons/button-left.png');
+  width: 22px;
+  height: 34px;
+  float: left;
+}
+
+.green-button .button-right{
+  background: url('../images/buttons/button-right.png');
+  width: 18px;
+  height: 34px;
+  float: left;
+}
+
+.green-button .button-center{
+  background: url('../images/buttons/button-fill.png') repeat-x;
+  height: 34px;
+  float: left;
+}
+
+
+
+
+
 /* header css *************************************************** */
 #header{
   background: url('../images/header-sliver.png') repeat-x top left;
